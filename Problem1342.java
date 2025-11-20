@@ -1,9 +1,7 @@
 class Solution {
     public int numberOfSteps(int num) {
         return helper(num, 0);
-
     }
-
     public int helper(int num, int count) {
         if (num == 0) {
             return count;
