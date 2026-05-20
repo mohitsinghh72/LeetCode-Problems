@@ -20,4 +20,5 @@ class Solution {
         qb[n] = total;
         return total;
     }
+
 }
